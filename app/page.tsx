@@ -1,4 +1,7 @@
 export default function Home() {
+
+    throw new Error("This page is not meant to be rendered. Please use the 'app' directory for your application code.");
+
   return (
     <main className="w-screen h-screen flex items-center justify-center bg-white p-4 sm:p-6 md:p-8">
     <svg viewBox="0 0 655 347" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" className="w-full h-auto max-w-[655px] max-h-full">
